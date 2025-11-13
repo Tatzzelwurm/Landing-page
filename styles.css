@@ -14,6 +14,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 height: 50px;
+border-bottom: #b09ae4 solid 1px;
 
 }
 
@@ -32,16 +33,19 @@ height: 50px;
     align-items: center;
     padding-bottom: 100px;
     background-color: #000000;
+    border-bottom: #b09ae4 solid 1px;
+    border-top: #b09ae4 solid 1px;
     
 }
 
 
 .quote-section {
     display: flex;
-    background-color: #E5E7EB;
+    background-color: #050505;
     height: 400px;
     justify-content: center;
     align-items: center;
+    border-bottom: #b09ae4 solid 1px;
 
 }
 
@@ -76,18 +80,33 @@ height: 50px;
 
 .quote{
     display: flex;
+    gap: 30px;
+    
+}
+
+.steve-avatar{
+    display: flex;
     flex-direction: column;
-    width: 750px;
+
 }
-#TOP {
-    align-self: flex-end;
-    font-size: 20px;
+
+#Steve {
+    font-size: 23px;
+    color: #b09ae4 ;
+    align-self: center;
 }
+#steve-avatar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .text-quote {
-    color: #1F2937;
+    color: #989d9e;
     font-size: 36px;
     font-weight: 300;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 700px;
 }
 
 .cards {
