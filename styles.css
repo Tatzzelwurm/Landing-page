@@ -31,6 +31,7 @@ height: 50px;
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
+    background-color: #000000;
     
 }
 
@@ -91,7 +92,7 @@ height: 50px;
 
 .cards {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -105,13 +106,14 @@ height: 50px;
 
 .text-cards {
     display: flex;
-    gap: 35px;
+    gap: 40px;
+    
     
 }
 #description {
     width: 120px;
     text-align: center;
-    color: grey;
+    color: #12f0cb;
     font-size: 14px;
 }
 
@@ -165,7 +167,7 @@ h2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 36px;
-    color: #1F2937;
+    color: #E5E7EB;
     font-weight: 900;
 }
 
