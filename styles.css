@@ -14,7 +14,9 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 height: 50px;
+width: 100%;
 border-bottom: #b09ae4 solid 1px;
+position: fixed;
 
 }
 
@@ -57,7 +59,7 @@ border-bottom: #b09ae4 solid 1px;
 
 
 .action-section {
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +202,10 @@ h2 {
     font-weight: 900;
 }
 
-
+a {
+    text-decoration: none;
+    
+}
 
 .hero-main-text {
     color: #12f0cb;
